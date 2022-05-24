@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 365px;
+    background-color: rgb(224, 222, 222);
+
+}
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__container_nav {
+    width: 1215px;
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 0 0 100px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.header__container_nav_logo {
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -19px;
+    border-radius: 5px;
+
+}
+
+.header__container_nav > div {
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    margin: 4px;
+}
+.header__container_log-in {
+    margin: 20px 0 0 70px;
+    display: flex;
+    justify-content: space-between
+    font-family: 'Prompt', sans-serif;   
+}
+
+.header__container_log-in_registration {
+    margin-left: 30px;
+    line-height: 45px;
+}
+
+.header__container_log-in_button, .main__container__section_button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(215, 184, 245);
+    border-radius: 5px;
+    font-family: 'Prompt', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(163, 75, 246);
+    cursor: pointer;
+}
+
+.header__container_advertising {
+    max-width: 1000px;
+    height: 250px;
+    margin: 10px auto;
+    background-image: url(../image/970x250px_advertising.png);
+    background-size: cover;
+}
+
+main{
+    width: 100%;
+    height: 2000px;
+    background-color: rgb(224, 222, 222);
+    margin: 0 auto;
+}
+
+.main__container {
+    width: 1300px;
+    height: 1500px;
+    margin: 0 auto;
+}
+.main__container__section1, .main__container__section2, .main__container__section3 {
+    display: flex;
+    width: 1300px;
+    height: 525px;
+    border: solid 2px rgb(112, 111, 111);
+    border-radius: 5px;
+    margin-bottom: 20px;
+} 
+.main__container__section2 {
+    flex-direction: row-reverse;
+}
+.main__container__section1_image, .main__container__section2_image, .main__container__section3_image {
+    width: 550px;
+    height: 480px;
+    background-size: cover;
+    border: solid 2px rgb(112, 111, 111);
+    margin: 20px; 
+}
+.main__container__section_text {
+    margin: 197px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+.main__container__section1_image {
+    background-image: url(../image/730x730-A_E-TRON.webp);
+}
+
+.main__container__section2_image {
+    background-image: url(../image/730x730-audi-rs-7-sportback.webp);
+}
+
+.main__container__section3_image {
+    background-image: url(../image/730x730-rs5.webp);
+}
+
+.main_container_form {
+    display: flex;
+    flex-direction: column;
+    margin: 130px auto;
+    width: 400px;
+    font-family: 'Prompt', sans-serif;   
+}
+footer {
+    background-color: rgb(195, 192, 192);
+    height: 800px;
+}
+.footer__models > div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Prompt', sans-serif;
+    margin-left: 70px;
+}
+.footer__models_title {
+    font-size: 20px;
+    margin-left: 70px;
+}
